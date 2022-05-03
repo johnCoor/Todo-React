@@ -1,0 +1,45 @@
+/* display: flex; */
+/* justify-content: flex-end; */
+/* position: relative; */
+/* bottom: 84px; */
+/* left: 6px; */
+/* font-size: 1.7rem; */
+/* } */
+
+.TodoItem {
+    background-color: #FAFAFA;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+    box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.15);
+  }
+
+  .TodoItem-p--complete {
+    text-decoration: line-through;
+  }
+
+  .Icon {
+      padding-right: 5px;
+      cursor: pointer;
+      height: 57px;
+      color: black;
+      width: 48px;
+      font-size: 31px;
+      font-weight: bold;
+  }
+
+  .Icon-delete {
+    position: relative;
+    top: 5px;
+    right: -30px;
+  }
+
+  .Icon-delete:hover {
+    color: red;
+  }
+
+  .Icon-check--active {
+    color: #4caf50;
+  }

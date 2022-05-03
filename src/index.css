@@ -1,0 +1,22 @@
+body {
+ display: flex;
+ flex-direction: column;
+ 
+ text-align: center;
+ background-color: white;
+ /* background: #E55D87;  fallback for old browsers */
+ /* background: -webkit-linear-gradient(to right, #5FC3E4, #E55D87);  Chrome 10-25, Safari 5.1-6 */
+ /* background: linear-gradient(to right, #5FC3E4, #E55D87); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ 
+
+ 
+ /* background-size: calc(500px, 100px); */
+
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+    
+}

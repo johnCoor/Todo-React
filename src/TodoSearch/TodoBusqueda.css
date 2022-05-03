@@ -1,0 +1,26 @@
+.TodoBusqueda {
+    width: 50%;
+    height: 40px;
+    border: 0 solid rgba(13, 69, 180, 0);
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+    font-size: 15px;
+    background-color: rgb(228 220 220 / 35%);
+    font-weight: 200;
+    font-family: 'Contrail One', cursive;
+    margin-left: 25px;
+    /* display: flex; */
+    /* background-color: transparent; */
+   
+    margin-bottom: 15px;
+}
+
+
+::placeholder {
+    color: black;
+    font-weight: bold;
+    font-family: 'Mukta Vaani', sans-serif;
+    font-size: 1.3rem;
+    opacity: 0.5;
+}

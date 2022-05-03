@@ -1,0 +1,22 @@
+.TodoCounter {
+ font-size: 2.7rem;
+ text-align: center;
+ margin-top: 40px;
+ font-family: 'Nunito Sans', sans-serif;
+ margin-bottom: 50px;
+ color: #3f2a5cb9;
+ width: 100%;
+ 
+}
+
+
+@media (max-width: 400px) {
+    .TodoCounter  {
+      font-size: 1.5rem;
+    }
+  }
+/* font-family: 'DM Sans', sans-serif; */
+/* font-family: 'Inter', sans-serif; */
+/* font-family: 'Merriweather', serif; */
+/* font-family: 'Nunito Sans', sans-serif; */
+/* font-family: 'Rubik', sans-serif; */
